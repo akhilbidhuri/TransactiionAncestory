@@ -21,6 +21,7 @@ function getInitialNodes(adjList) {
     return initialNodes
 }
 
+//based on topological sort
 function topoBasedParentCount(initialNodes, adjList) {
     queue = [...initialNodes]
     order = []
@@ -48,7 +49,7 @@ function findMaxAncestorNodes(adjList, n) {
     console.log("Top", n, "Transactions")
     for(let i=0;i<n;i++){
        let res = pq.dequeue()
-       console.log(res.val, res.priority) 
+       console.log("TxID:", res.val, "No of Parents:", res.priority) 
     }
 }
 
