@@ -1,0 +1,16 @@
+{
+  "name": "transactionancestory",
+  "version": "1.0.0",
+  "description": "Transaction Ancestory for Blocks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akhil Bidhuri",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "promise": "^8.1.0"
+  }
+}
